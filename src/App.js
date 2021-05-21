@@ -134,6 +134,15 @@ function App() {
       Note: Bookmark and download this site to quickly access this page when needed... <br />Share this to someone who needs it
     </p>
 
+<figure className="text-center">
+  <blockquote className="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption className="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+</figure>
+
 <section className="sec1">
 
     <br />
