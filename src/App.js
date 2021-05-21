@@ -130,18 +130,16 @@ function App() {
       <State name={value} />
 
       <br />
-      <p className="lead text-center">
+      <h3>
+      <div class="alert alert-danger fade show text-center" role="alert">
       Note: Bookmark and download this site to quickly access this page when needed... <br />Share this to someone who needs it
-    </p>
+</div></h3>
 
-<figure className="text-center">
-  <blockquote className="blockquote">
-    <p>An ounce of prevention is worth a pound of cure</p>
-  </blockquote>
-  <figcaption className="blockquote-footer">
-  Benjamin Franklin
-  </figcaption>
-</figure>
+<br />
+
+
+
+
 
 <section className="sec1">
 
@@ -165,6 +163,17 @@ function App() {
 </section>
 
 <br />
+<br />
+
+<figure className="alert alert-warning text-center " role="alert">
+  <blockquote className="blockquote ">
+    <p>An ounce of prevention is worth a pound of cure</p>
+  </blockquote>
+  <figcaption className="blockquote-footer">
+  Benjamin Franklin
+  </figcaption>
+</figure>
+
 <br />
 <br />
 
