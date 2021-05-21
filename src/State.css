@@ -1,0 +1,29 @@
+._one {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.card {
+  width: 18rem;
+}
+
+.padder .col {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+.sec1 {
+  background-color: rgb(247, 54, 54);
+  padding-bottom: 3%;
+  padding-right: 2%;
+}
+
+.sec2 {
+  background-color: rgb(255, 108, 218);
+  padding: 3%;
+}
+
+.ema div {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
