@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Playground from './Playground';
 import "./State.css"
 
 
@@ -425,7 +424,6 @@ function State({name}) {
        </div>
      
 
-        <Playground state={state_list}/>
         </div>
         </div>
        </> 
