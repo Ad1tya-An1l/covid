@@ -2,7 +2,9 @@ import {useState} from 'react';
 import './App.css';
 import State from './State';
 import Unrender from './Unrender';
+import MetaTags from 'react-meta-tags';
 
+import logo from './images/favicon_ico.ico'
 
 
 
@@ -20,6 +22,13 @@ function App() {
 
   return (
     <>
+    <MetaTags>
+            <title>Covid Emergency App</title>
+            <meta id="meta-description" name="description" content="All in one Covid Emergency" />
+            <meta id="og-title" property="og:title" content="All in one Covid Emergency" />
+            <meta id="og-image" property="og:image" content={logo} />
+          </MetaTags>
+
   <div className="container" >
 
   
